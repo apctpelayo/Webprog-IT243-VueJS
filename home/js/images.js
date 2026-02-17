@@ -1,5 +1,5 @@
 
-  const app = Vue.createApp({
+  const app2 = Vue.createApp({
    data() {
     return {
       manyFoods: [
@@ -15,4 +15,4 @@
    }
   })
   
-  app.mount('#app2')
+  app2.mount('#app2')
