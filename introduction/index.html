@@ -3,6 +3,7 @@
 <head>
 <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/mystyle.css">
+<link rel="stylesheet" href="css/images.css">
 <title>Introduction</title>
 </head>
 <body>
@@ -20,8 +21,27 @@ Goals In Life / Dream: One of my dream is to make my own game<br>
 Picture Gallery <br>
  <img src="https://framerusercontent.com/images/lgqlgAvFLCT0bronQNxsEupoQs.webp" alt="Girl with a jacket" width="30%" height="auto">
 </p>
- 
- 
-  
+
+ <h1>Vue Example</h1>
+
+<p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
+
+<div id="app">
+  {{ message }}
+</div>
+
+ <div id="app2">
+
+  <div>
+    <img v-for="x in manyFoods" v-bind:src="x">
+  </div>
+
+</div>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="js/vue.js"></script>
+  <script src="js/images.js"></script>
+
+
 </body>
 </html>
