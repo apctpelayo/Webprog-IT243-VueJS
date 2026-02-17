@@ -6,7 +6,7 @@
 export default {
   data() {
     return {
-      message: 'Hi webprog it243, edited from github.dev, this is very cool'
+      message: 'Hi webprog it243, edited from github.dev, this is very cool, another one edit'
     };
   }
 };
